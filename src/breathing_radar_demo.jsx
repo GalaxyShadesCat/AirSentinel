@@ -1384,8 +1384,8 @@ export default function AirSentinelRadarDemo() {
                   <path d="M286 80 C 336 102, 394 102, 444 80" fill="none" stroke="#f59e0b" strokeWidth="4" />
                   <path d="M286 80 C 336 92, 394 92, 444 80" fill="none" stroke="#fbbf24" strokeWidth="3" />
                   <ellipse cx="452" cy="80" rx="26" ry="34" fill="#cbd5e1" />
-                  <text x="72" y="118" textAnchor="middle" fontSize="12" fill="#475569">Radar</text>
-                  <text x="452" y="126" textAnchor="middle" fontSize="12" fill="#475569">Chest target</text>
+                  <text x="72" y="126" textAnchor="middle" fontSize="24" fill="#475569">Radar</text>
+                  <text x="452" y="140" textAnchor="middle" fontSize="24" fill="#475569">Chest target</text>
                 </svg>
               </CardContent>
             </Card>
@@ -1423,7 +1423,7 @@ export default function AirSentinelRadarDemo() {
                     return <rect key={i} x={x} y={140 - h} width="14" height={h} rx="4" fill={selected ? "#2563eb" : "#cbd5e1"} />;
                   })}
                   <polyline fill="none" stroke="#0f172a" strokeWidth="1.2" points={rangeHeatPolyline} opacity="0.45" />
-                  <text x="16" y="18" fontSize="12" fill="#334155">Selected bin: {uiSelectedBin}</text>
+                  <text x="16" y="18" fontSize="24" fill="#334155">Selected bin: {uiSelectedBin}</text>
                 </svg>
               </CardContent>
             </Card>
